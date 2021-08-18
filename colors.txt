@@ -1,0 +1,7 @@
+one-plataform paleta de colores
+
+#ff7a17 (narange)
+#5325B3 (violet-bg-left)
+#533BE1 (azul-bg-right
+#3b1f91 (azul-header)
+#FF7A17;

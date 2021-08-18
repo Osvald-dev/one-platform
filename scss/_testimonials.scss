@@ -1,0 +1,53 @@
+@import "../scss/utilities/variables";
+
+.clientes_testimonials{
+    padding-top: 110px;
+    padding-bottom: 70px;
+    background-color: $gris-bg;
+    background-image: url(https://themes.muffingroup.com/be/erp2/wp-content/uploads/2020/06/erp2-sectionbg3.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+}
+.section1_testimonials{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.testimonials_div{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+.lottie_stars{
+    width: 90%;
+}
+.titulo_testimonials{
+    font-size: 70px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 70px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: white;
+}
+.testi_img{
+    width: 40%;
+}
+.testi_text{
+    width: 40%;
+}
+.img_persona{
+    width: 80%;
+}
+.testi_p{
+    color: #444444;
+    font-size: 17px;
+    font-family:$fuente-global;
+    line-height: 31px;
+    display: block;
+    height: auto;
+    position: relative;
+}

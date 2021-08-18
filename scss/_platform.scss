@@ -1,0 +1,130 @@
+@import "../scss/utilities/variables";
+
+.section2_col1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+.platform_img{
+    width: 50%;
+}
+.img_platform{
+    width: 60%;
+}
+.h2_index_platform{
+    color: #333ad7;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.section2_col2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 3rem;
+}
+.col2_parrafos{
+    width: 44%;
+    margin-bottom: 5rem;
+}
+.cParrafo1{
+    font-family: $fuente-global;
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    //border-right: 0.025rem solid rgb(191, 191, 191);
+    //padding-right: 2rem;
+    padding-top: 1rem;
+
+}
+.cParrafo2{
+    color: #626262;
+    font-size: 16px;
+    font-family: $fuente-global;
+    line-height: 30px;
+    letter-spacing: 0px;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    border-left: 1px solid #e6e6e6;
+}
+.counters_platform{
+    
+    display: flex;
+    flex-direction: row;
+    //margin-top: 10rem;
+    
+    width: 100%;
+    padding-bottom:70px;
+}
+
+.section3{
+    padding-top: 110px;
+    padding-bottom: 40px;
+    background-color: #f7f9fa;
+    
+}
+.section3_col1{
+    width: 100%;
+    margin: 0 auto;
+}
+.section3_textos{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.section3_parrafos{
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.section3_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img_section3{
+    text-align: center;
+    max-width: 98%;
+}
+
+.section3_col2{
+    //width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.col2_div{
+    width: 33%;
+    text-align: left;
+    padding-left: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.col2_titulo{
+    font-family: $fuente-global;
+    color: $azul;
+    font-size: 65px;
+    line-height: 65px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-bottom: 1rem;
+
+}
+.col2_parrafo{
+    margin: 0 0 15px;
+    color: $gris-text;
+    font-family: $fuente-global;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}

@@ -1,0 +1,377 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+@import "layout/header";
+@import "layout/footer";
+@import "utilities/variables";
+@import "../scss/about";
+@import "../scss/contact";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import "../scss/platform";
+@import "../scss/testimonials";
+
+
+
+
+@media only screen and (max-width: 1110px){
+    .topbar{
+        flex-direction: column;
+    }
+    .contenedor_free{
+        flex-direction: column;
+    }
+    .logoynav{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .contenedorSlide{
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+        display: flex;
+    }
+    .menu-desple{
+        display: block;
+    }
+    .menu{
+        position: absolute;
+        background-color:#3b1f91;
+        width: 60%;
+        margin-left: -180%;
+        margin-top: 0.7rem;
+    }
+    .menu_nav{
+        flex-direction: column;
+    }
+    .padding--link:hover{
+        background-color: #381d8a;  
+        //width: 100%;
+        }
+    #menu-desplegable{
+        display: none;
+    }
+
+    #menu-desplegable:checked ~ .menu{
+        margin: 0;
+    }
+    .button_download{
+    margin: 0;
+    }
+}
+@media only screen and (max-width: 900px){
+    .logoynav{
+        //flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .def_div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .def_text{
+        align-items: flex-start;
+        width: 70%;
+        width: 80%;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .def_img{
+        margin-top: 2rem;
+        width: 60%;
+    }
+    .theplatform{
+        flex-direction: column;
+    }
+    .the_imgdiv{
+        width: 90%;
+    }
+    .the_text{
+        width: 80%;
+        align-items: flex-start;
+        margin-top: 2rem;
+}
+.box_utilidades{
+    width: 80%;;
+}
+.contenedor_free{
+    flex-direction: column;
+}
+.footer_flex{
+    flex-direction: column;
+    align-items: center;
+}
+.footer_text{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+.footer_contacto{
+    flex-direction: column;
+}
+
+    }
+
+
+@media only screen and (max-width:810px){
+.menu_nav{
+    flex-wrap: wrap;
+}
+.content{
+flex-direction: column;
+margin-top: 2rem;
+}
+.content_align{
+    margin-top: 2rem;
+}
+.testi_box{
+flex-direction: column;
+align-items: center;
+}
+.testimonials_div{
+    flex-direction: column;
+}
+.testi_img{
+    width: 70%;
+    text-align: center;
+}
+.testi_text{
+    width: 60%;
+    margin-left: 1rem;
+}
+.box_rating{
+margin-top: 2rem;
+width: 60%;
+}
+.box_utilidades{
+align-items: center;
+}
+.slide_nav{
+    margin-top: 3rem;
+}
+.section1_textos{
+    flex-direction: column;
+}
+.section1_parrafo{
+    margin-top: 2rem;
+}
+.section2_about{
+    flex-direction: column;
+}
+.about_col1{
+    flex-direction: column;
+    width: 95%;
+    
+}
+.p_about{
+    width: 90%;
+}
+.links_about{
+    margin-top: 1.5rem;
+}
+.about_col2{
+    width: 90%;
+}
+.section3_about{
+    flex-direction: column;
+    padding: 0%;
+}
+.about_col3{
+    width:85%;
+    margin-left: 1rem;
+}
+.titulo_about{
+    flex-direction: column;
+}
+.contenedor_central_about{
+    margin-left: 2rem;
+}
+.h2_about{
+    font-size: 50px;
+    width: 90%;
+}
+.about_img3{
+    width: 80%;
+    margin-left: 3.5rem;
+}
+.section2_col1{
+    flex-direction: column;
+    align-items: center;
+}
+.platform_img{
+    width: 95%;
+}
+.img_platform{
+    width: 80%;
+}
+.section2_col2{
+    flex-direction: column;
+    align-items: center;
+}
+.col2_parrafos{
+    width: 84%;
+}
+.section3_parrafos{
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+}
+.section3_textos{
+    margin-left: 5rem;
+}
+.section3_col2{
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+.col2_div{
+    width: 80%;
+
+}
+.col2_titulo{
+    //text-align: center;
+    margin-top: 1.5rem;
+    font-size: 40px;
+}
+.free_button{
+    margin-top: 1.5rem;
+}
+
+.h2_form{
+    font-size: 42px;
+    text-align: center;
+    margin-left: 0%;
+}
+.contacto_div{
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+.section1_contact{
+    flex-direction: column;
+    align-items: center;
+}
+.contact_box1{
+    width: 85%;
+   // margin-left: auto;
+    margin-bottom: 2rem;
+}
+.contact_box2{
+    width: 85%;
+   // margin-left: auto;
+    margin-right: 2rem;
+}
+
+}
+
+@media only screen and (max-width:643px){
+    #menu-desplegable:checked ~ .menu{
+       
+}
+.logoynav{
+    flex-direction: column;
+    width: 60%;
+}
+}
+@media only screen and (max-width:554px) and (min-width:280px){
+
+    .header_titulo{
+        font-size: 60px;
+    }
+    .h2_index{
+        font-size:60px
+    }
+    .comentarios_slide{
+        height: 35vh;
+    }
+    .forfree{
+        text-align: center;
+    }
+
+    .footer_social{
+        justify-content: center;
+    }
+    .footer_registrer{
+        flex-direction: column;
+    }
+    .slide_nav{
+        margin-top: 6rem;
+    }
+    .derechos{
+        width: 100%;
+    }
+    .cookies{
+        width: 100%;
+    }
+    .h2_about{
+        font-size: 42px;
+        width: 80%;
+        font-size: 32px;
+    }
+    .about_img3 {
+        width: 80%;
+        margin-left: 1.5rem;
+    }
+    .about_buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col2_div{
+        padding-left: 0rem; 
+        margin-left:0rem; 
+        margin-right: 0.5rem;
+    }
+ .contact_box1{
+    width: 70%;
+ }
+ .links_about{
+    margin-top: 2rem;
+    padding-left: 0%;
+
+ }
+ .contact_box2{
+     margin-right: 0%;
+ }
+.h2_form{
+    font-size: 38px;
+}
+.section3_textos{
+    margin-left: 3rem;
+    //width: 95%;
+}
+.section3_parrafos{
+    width: 85%;
+}
+.content_align{
+    padding-right: 0;
+}
+.col2_parrafos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo_clientes{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.c_Parrafo1{
+    margin-left: .5rem;
+}
+.footer_social{
+    width: 45%;
+    justify-content: space-around;
+}
+.titulo_testimonials{
+    font-size: 50px;
+}
+.lottie_stars{
+    width: 60%;
+    margin-left: -1.8rem;
+}
+#menu-desplegable:checked ~ .menu{
+    margin: 0;
+}
+.padding--link {
+  
+    padding: 0;
+}
+}

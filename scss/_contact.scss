@@ -1,0 +1,118 @@
+@import "../scss/utilities/variables";
+
+.section1_contact{
+    padding-top: 110px;
+    padding-bottom: 70px;
+    background-color: $gris-bg;
+    background-image: url(https://themes.muffingroup.com/be/erp2/wp-content/uploads/2020/06/erp2-sectionbg3.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.footer_contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    border-bottom: 2px solid rgb(196, 196, 196);
+}
+.h5_contacto{
+    color:$naranja;
+    font-family: $fuente-global;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.p_contacto{
+    color:#000;
+    font-family: $fuente-global;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.contacto_direccion{
+    margin-top: 1.5rem;
+    border-bottom: 2px solid rgb(196, 196, 196);
+}
+.p_contacto1{
+    font-family: $fuente-global;
+    color: $gris-text;
+}
+.contact_box1{
+    width: 40%;
+    padding-right: 2rem;
+}
+.contact_box2{
+    width: 40%;
+}
+.contact_img{
+    width: 100%;
+}
+.contacto_form{
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 70px;
+}
+.titulo form{
+    
+    width: 80%;
+}
+.h2_form{
+    color:$azul;
+    font-family: $fuente-global;
+    font-size: 65px;
+    line-height: 65px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-bottom: 4rem;
+    margin-left: 10%;
+}
+.contenedor_formulario{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.formulario{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.contacto_div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.625rem;
+    margin-top: 0.4rem;
+}
+.label_form{
+    color: $gris-text;
+    font-family: $fuente-global;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.campo_form{
+    width: 80%;
+    border-radius: 2rem;
+    box-shadow: inset 0 0 3px #b5b4b4;
+    border: 0.094rem;
+    padding: 0.4rem;
+    height: 1.5rem;
+    text-align: left;
+}
+.campo_form_txarea{
+    width: 60%;
+    border-radius: 2rem;
+    box-shadow: inset 0 0 3px #b5b4b4;
+    border: 0.094rem;
+    padding: 0.4rem;
+}
+.enviar_div{
+    margin-top: 2rem;
+}

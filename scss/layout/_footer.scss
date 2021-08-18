@@ -1,0 +1,89 @@
+.footer{
+    padding-top: 110px;
+   // padding-bottom: 90px;
+    background-color: #f5f9fc;
+    width: 100%;
+}
+.footer_flex{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+.footer_text{
+    margin-left: 2.5rem;
+}
+.h2_footer{
+    color:azul;
+    font-size: 42px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-family: $fuente-global;
+}
+.footer_contacto{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    align-items: flex-start;
+    
+}
+.contacto_margin{
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+}
+.h4_footer{
+    color: #000000;
+    font-size: 23px;
+    font-weight: 200;
+    font-family: $fuente-global;
+    margin-left: 0.5rem;
+}
+.footer_social{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.social_div{
+    width: 85%;
+}
+.red_margin{
+    margin-right: 1rem;
+}
+
+.footer_registrer{
+    align-items: center;
+    border-top-color: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.derechos{
+    width: 40%;
+    font-family: $fuente-global;
+    font-size: 18px;
+    color: $gris-text;
+}
+.cookies{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    font-family: $fuente-global;
+    font-size:12px;
+
+}
+.cokies_a{
+    font-size: 18px;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #d8d8d8;
+}
+.cokies_a:hover{
+    text-decoration: underline;
+    color:$gris-text;
+}
+.section_registrer{
+    border-top:solid #d8d8d8 1px;
+    
+    padding: 2rem;
+}
