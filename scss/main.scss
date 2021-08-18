@@ -39,7 +39,10 @@
         background-color:#3b1f91;
         width: 60%;
         margin-left: -180%;
-        margin-top: 0.7rem;
+        margin-top: 2.5rem;
+        transition: all 0.5s;
+        left: 0;
+        
     }
     .menu_nav{
         flex-direction: column;
@@ -264,17 +267,18 @@ align-items: center;
 
 @media only screen and (max-width:643px){
     #menu-desplegable:checked ~ .menu{
-       
+      width: 60%;
 }
 .logoynav{
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 60%;
+    margin-top: 3rem;
 }
 }
 @media only screen and (max-width:554px) and (min-width:280px){
 
     .header_titulo{
-        font-size: 60px;
+        font-size: 50px;
     }
     .h2_index{
         font-size:60px
@@ -371,7 +375,10 @@ align-items: center;
     margin: 0;
 }
 .padding--link {
-  
-    padding: 0;
+padding: 1rem;
+}
+
+.button_download{
+    padding: 0.5rem 1rem;
 }
 }
